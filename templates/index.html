@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Search Page</title>
+    <link rel="stylesheet" href="../static/styles.css">
+</head>
+<body>
+    <form id="searchForm">
+        <div class="search-container">
+            <label for="category">Choose a category:</label>
+            <select id="category" aria-label="Select category">
+                <option value="case_laws">Case Laws</option>
+                <option value="articles">Articles</option>
+                <option value="products">Products</option>
+            </select>
+            <label for="searchInput">Enter keywords:</label>
+            <input type="text" id="searchInput" placeholder="Type here..." aria-label="Search input">
+            <button type="submit">Search</button>
+        </div>
+    </form>
+    <div id="results"></div>
+    <script src="../static/script.js"></script>
+</body>
+</html>
